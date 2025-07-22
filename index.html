@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript</title>
+</head>
+
+<body>
+	<!-- Have 3 way to use JavaScript -->
+	<!-- Internal -->
+	<script>
+		function showMessage() {
+			alert("This is an internal script!")
+		}
+	</script>
+	<button onclick="showMessage();">Internal</button>
+
+	<!-- Inline -->
+	<button onclick="alert('This is inline script')">Inline</button>
+
+	<!-- External can use in tags body and head -->
+	<script src="external.js"></script>
+	<button onclick="externalMessage()">External</button>
+
+	<!-- Display Output -->
+	<p id="para">Paragraph</p>
+	<button type="button" onclick="innertest()">Change!</button>
+	<script>
+		document.write("Write content"); // 1
+		//alert("Alert content"); // 2
+
+		function innertest() { // code block
+			document.getElementById("para").innerHTML = "Change content"; // 3
+		}
+
+		console.log("Show on console"); // 4
+
+		/*
+		This 
+		is 
+		long / multi-line 
+		comment 
+		*/
+
+	</script>
+	<!-- javascript statements -->
+	<!-- values, operators, expressions, keywords, comments -->
+</body>
+
+</html>
