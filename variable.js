@@ -21,3 +21,11 @@ console.log(name1)
     const a2 = "kenn1";
 }
 console.log(x)
+
+let number1 = "200";// string
+let number2 = 50;
+let u = 100 / "JS";
+let sum1 = number1 + number2;
+console.log("number")
+console.log(sum1)
+console.log(u)
