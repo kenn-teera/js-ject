@@ -8,6 +8,7 @@ const car = {
     displayInfo() { //Method
         console.log(`wow this is method`);
         console.log(`${this.make} ${this.model}, Year: ${this.year}`);
+        // console.log(this.make + ' ' + this.model + ' ' + Year + ' ' + this.year); same as above
     },
     displayInfo2: function() { //Method
         console.log(`same as above right ;)`);
