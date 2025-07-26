@@ -7,7 +7,7 @@ const car = {
     year: 2024,
     displayInfo() { //Method
         console.log(`wow this is method`);
-        console.log(`${this.make} ${this.model}, Year: ${this.year}`);
+        console.log(`${this.make} ${this.model}, Year: ${this.year}`); // This keyword อ้างอิงถึงชื่ออยู่ใน object
         // console.log(this.make + ' ' + this.model + ' ' + Year + ' ' + this.year); same as above
     },
     displayInfo2: function() { //Method
